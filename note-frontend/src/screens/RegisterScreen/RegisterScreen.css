@@ -1,0 +1,38 @@
+/* Default styles */
+.registerContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+  }
+  
+  .registerButton {
+    background-color: #1a2456;
+    padding: 8px;
+    color: #efc2b3;
+    font-size: large;
+    border: none;
+  }
+  
+  .formStyles {
+    width: 100%; /* Make the form full-width on small screens */
+    max-width: 400px; /* Limit the form width for larger screens */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registerCol {
+    color: black;
+  }
+  
+  .loginLink {
+    color: #1a2456;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .formStyles {
+      max-width: 100%; /* Full width for small screens */
+    }
+  }
+  

@@ -1,0 +1,39 @@
+/* Default styles */
+.main {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../../images/pg1.dcd03d20-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 600px;
+}
+
+.title {
+  font-size: 3rem;
+  color: #ca362c;
+  margin: 1rem 0;
+}
+
+.intro-text {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .main {
+    background-size: contain; /* Cover the entire container with the background image */
+  }
+
+  .title {
+    font-size: 2rem; /* Adjust the font size for smaller screens */
+  }
+
+  .intro-text {
+    padding: 1rem; /* Reduce padding for smaller screens */
+  }
+}
+
+/* Add more media queries as needed for different screen sizes */
